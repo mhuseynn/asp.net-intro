@@ -19,6 +19,7 @@ public class ProductController : Controller
             {
                 Id = i,
                 Name = "Product " + i,
+                Quantity = 5,
                 Price = 10
             });
         }
